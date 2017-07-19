@@ -1,3 +1,4 @@
+
 body#background {
 background: url("http://res.cloudinary.com/thcloud/image/upload/e_blur:100,fl_keep_iptc,q_58/v1500437125/Job%20Journal%20Background.jpg") no-repeat 50% 50% fixed;
 background-size: cover;
@@ -6,6 +7,9 @@ background-size: cover;
 -webkit-background-size: cover;
 }
 
+#logOut {
+  float:right;
+}
 
 header {
     color:#897C80;
@@ -63,3 +67,15 @@ header {
   border-radius: 6px;
   cursor: pointer;
 }
+.container {
+  width :100%;
+}
+
+#searchTerm, #searchLocation {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #897C80;
+  border-radius: 12px;
+  width: 30%;
+}
+

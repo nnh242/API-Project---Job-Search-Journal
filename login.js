@@ -13,7 +13,8 @@ function submitHandler (){
         btn.text('Try Again');
     }
 }
-    
+
 $( document ).ready(function() {
     btn.on('click', submitHandler);
 });
+
